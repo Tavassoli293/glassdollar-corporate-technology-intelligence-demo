@@ -1,0 +1,10 @@
+relationship_id,company_entity_id,technology_provider_entity_id,technology_category,relationship_type,announced_date,source_type,source_reference,confidence,notes,quality_score,review_status,quality_issues
+R001,C001,C004,Industrial Automation,partnership,2026-02-10,company_announcement,synthetic://source/001,0.94,Illustrative strategic partnership,97.0,ready_for_human_approval,
+R002,C002,C005,Robotics,pilot,2026-04-18,press_release,synthetic://source/002,0.88,Illustrative factory pilot,92.5,ready_for_human_approval,
+R003,C003,C006,Energy Storage,implementation,2025-12-03,case_study,synthetic://source/003,0.96,Illustrative battery storage deployment,96.0,ready_for_human_approval,
+R004,C007,C008,Artificial Intelligence,proof_of_concept,2026-06-20,partner_announcement,synthetic://source/004,0.71,Illustrative AI proof of concept,86.8,ready_for_human_approval,
+R005,C001,C009,Industrial Automation,investment,2026-01-15,company_announcement,synthetic://source/005,0.82,Illustrative minority investment,94.0,ready_for_human_approval,
+R006,C004,C010,Data Analytics,implementation,2024-09-01,case_study,synthetic://source/006,0.91,Illustrative analytics implementation,86.8,ready_for_human_approval,
+R007,C002,C008,Artificial Intelligence,partnership,2023-01-10,news_article,synthetic://source/007,0.49,Illustrative older lower-confidence item,68.8,human_review,
+R008,C003,C005,Robotics,pilot,2026-07-05,,synthetic://source/008,0.62,Missing source type should be reviewed,69.7,human_review,missing source_type
+R009,C007,C006,Energy Storage,implementation,2026-03-12,case_study,synthetic://source/009,1.12,Invalid confidence should be flagged,72.0,human_review,confidence must be between 0 and 1

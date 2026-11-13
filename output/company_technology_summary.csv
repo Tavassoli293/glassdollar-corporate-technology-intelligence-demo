@@ -1,0 +1,11 @@
+entity_id,legal_name,country,relationship_count,technology_categories
+C001,Northstar Industrial Group SE,DE,2,Industrial Automation
+C002,Northstar Robotics GmbH,DE,2,Artificial Intelligence; Robotics
+C003,Northstar Energy Systems GmbH,DE,2,Energy Storage; Robotics
+C004,BluePeak Automation AG,DE,1,Data Analytics
+C005,VectorSense Technologies GmbH,NL,0,
+C006,HelioGrid Storage BV,NL,0,
+C007,MetroLink Digital GmbH,DE,2,Artificial Intelligence; Energy Storage
+C008,ForgeAI Systems Ltd,UK,0,
+C009,Alpine Motion GmbH,AT,0,
+C010,ClearSignal Analytics GmbH,DE,0,

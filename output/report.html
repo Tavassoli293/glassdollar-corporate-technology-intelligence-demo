@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Corporate Technology Intelligence — Demo Report</title>
+<style>
+:root{--ink:#17243a;--muted:#65738a;--line:#e1e7ef;--bg:#f4f7fb;--card:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Arial,sans-serif}
+main{max-width:1200px;margin:36px auto;padding:0 22px}header{margin-bottom:24px}h1{margin:0 0 6px;font-size:30px}.sub{color:var(--muted)}
+.notice{background:#fff8e7;border:1px solid #f1d58d;padding:13px 16px;border-radius:10px;margin:18px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin:18px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}.label{color:var(--muted);font-size:13px}.value{font-size:28px;font-weight:700;margin-top:4px}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin:16px 0}h2{font-size:18px;margin:0 0 14px}
+ul{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px}li{display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding:8px 4px}
+.table-wrap{overflow:auto}table{border-collapse:collapse;width:100%;min-width:950px;font-size:13px}th,td{border-bottom:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}th{background:#f8fafc;color:#48566b}
+.badge{display:inline-block;padding:3px 8px;border-radius:20px;font-size:11px;white-space:nowrap}.review{background:#fff0d8;color:#8b4d00}.ready{background:#e6f6ee;color:#17633e}
+footer{color:var(--muted);font-size:12px;margin:20px 0 40px}
+</style></head><body><main>
+<header><h1>Corporate Technology Intelligence</h1><div class="sub">Synthetic portfolio prototype · Data quality and relationship review</div></header>
+<div class="notice"><strong>Demo data notice:</strong> All entities and relationships shown here are fictional and synthetic. The score is an illustrative heuristic, not a probability or verified fact.</div>
+<div class="cards">
+<div class="card"><div class="label">Companies processed</div><div class="value">10</div></div>
+<div class="card"><div class="label">Relationships processed</div><div class="value">9</div></div>
+<div class="card"><div class="label">Flagged for human review</div><div class="value">3</div></div>
+<div class="card"><div class="label">Average quality score</div><div class="value">84.8</div></div>
+</div>
+<section><h2>Relationship volume by technology category</h2><ul><li><span>Artificial Intelligence</span><strong>2</strong></li><li><span>Data Analytics</span><strong>1</strong></li><li><span>Energy Storage</span><strong>2</strong></li><li><span>Industrial Automation</span><strong>2</strong></li><li><span>Robotics</span><strong>2</strong></li></ul></section>
+<section><h2>Relationship records</h2><div class="table-wrap"><table><thead><tr><th>ID</th><th>Entities</th><th>Technology</th><th>Relationship</th><th>Score</th><th>Status</th><th>Issues</th></tr></thead><tbody><tr><td>R001</td><td>C001 → C004</td><td>Industrial Automation</td><td>partnership</td><td>97.0</td><td><span class='badge ready'>ready_for_human_approval</span></td><td>—</td></tr><tr><td>R002</td><td>C002 → C005</td><td>Robotics</td><td>pilot</td><td>92.5</td><td><span class='badge ready'>ready_for_human_approval</span></td><td>—</td></tr><tr><td>R003</td><td>C003 → C006</td><td>Energy Storage</td><td>implementation</td><td>96.0</td><td><span class='badge ready'>ready_for_human_approval</span></td><td>—</td></tr><tr><td>R004</td><td>C007 → C008</td><td>Artificial Intelligence</td><td>proof_of_concept</td><td>86.8</td><td><span class='badge ready'>ready_for_human_approval</span></td><td>—</td></tr><tr><td>R005</td><td>C001 → C009</td><td>Industrial Automation</td><td>investment</td><td>94.0</td><td><span class='badge ready'>ready_for_human_approval</span></td><td>—</td></tr><tr><td>R006</td><td>C004 → C010</td><td>Data Analytics</td><td>implementation</td><td>86.8</td><td><span class='badge ready'>ready_for_human_approval</span></td><td>—</td></tr><tr><td>R007</td><td>C002 → C008</td><td>Artificial Intelligence</td><td>partnership</td><td>68.8</td><td><span class='badge review'>human_review</span></td><td>—</td></tr><tr><td>R008</td><td>C003 → C005</td><td>Robotics</td><td>pilot</td><td>69.7</td><td><span class='badge review'>human_review</span></td><td>missing source_type</td></tr><tr><td>R009</td><td>C007 → C006</td><td>Energy Storage</td><td>implementation</td><td>72.0</td><td><span class='badge review'>human_review</span></td><td>confidence must be between 0 and 1</td></tr></tbody></table></div></section>
+<footer>As-of date: 2026-11-13 · Review threshold: 70.0 · Generated locally from CSV input. No external services are called.</footer>
+</main></body></html>

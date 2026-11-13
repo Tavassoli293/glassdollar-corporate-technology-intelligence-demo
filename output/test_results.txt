@@ -1,0 +1,13 @@
+test_future_date_is_flagged (test_pipeline.PipelineTests.test_future_date_is_flagged) ... ok
+test_invalid_confidence_is_flagged (test_pipeline.PipelineTests.test_invalid_confidence_is_flagged) ... ok
+test_invalid_relationship_type_is_flagged (test_pipeline.PipelineTests.test_invalid_relationship_type_is_flagged) ... ok
+test_missing_source_is_flagged (test_pipeline.PipelineTests.test_missing_source_is_flagged) ... ok
+test_name_normalisation (test_pipeline.PipelineTests.test_name_normalisation) ... ok
+test_parent_and_subsidiary_are_separate_entities (test_pipeline.PipelineTests.test_parent_and_subsidiary_are_separate_entities) ... ok
+test_parent_cycle_is_detected (test_pipeline.PipelineTests.test_parent_cycle_is_detected) ... ok
+test_recency_factors_are_deterministic (test_pipeline.PipelineTests.test_recency_factors_are_deterministic) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+OK

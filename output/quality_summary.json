@@ -1,0 +1,20 @@
+{
+  "demo_notice": "Synthetic data only; quality scores are illustrative heuristics, not probabilities.",
+  "as_of_date": "2026-11-13",
+  "companies_processed": 10,
+  "relationships_processed": 9,
+  "relationships_flagged_for_human_review": 3,
+  "relationships_ready_for_human_approval": 6,
+  "total_quality_issues": 2,
+  "average_quality_score": 84.8,
+  "review_threshold": 70.0,
+  "relationship_counts_by_category": {
+    "Artificial Intelligence": 2,
+    "Data Analytics": 1,
+    "Energy Storage": 2,
+    "Industrial Automation": 2,
+    "Robotics": 2
+  },
+  "company_issues": [],
+  "relationship_id_issues": []
+}

@@ -1,0 +1,11 @@
+entity_id,legal_name,domain,country,parent_entity_id,entity_type
+C001,Northstar Industrial Group SE,northstar.example,DE,,parent
+C002,Northstar Robotics GmbH,northstar-robotics.example,DE,C001,subsidiary
+C003,Northstar Energy Systems GmbH,northstar-energy.example,DE,C001,subsidiary
+C004,BluePeak Automation AG,bluepeak.example,DE,,independent
+C005,VectorSense Technologies GmbH,vectorsense.example,NL,,independent
+C006,HelioGrid Storage BV,heliogrid.example,NL,,independent
+C007,MetroLink Digital GmbH,metrolink.example,DE,,independent
+C008,ForgeAI Systems Ltd,forgeai.example,UK,,independent
+C009,Alpine Motion GmbH,alpinemotion.example,AT,,independent
+C010,ClearSignal Analytics GmbH,clearsignal.example,DE,,independent
